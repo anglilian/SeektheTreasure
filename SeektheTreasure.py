@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
+# In[13]:
 
 
 ###SEEK THE TREASURE: DUNGEON GAME###
@@ -211,6 +211,7 @@ class GameScene(Scene):
         level = levelinfo["level"]
         self.maze = Maze(level)
         
+        #initialises each item in the level
         x = 0
         y = 0
         path = []
@@ -658,4 +659,10 @@ if __name__ == "__main__":
     main()
     
 pygame.quit()
+
+
+# In[ ]:
+
+
+
 
